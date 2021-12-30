@@ -14,6 +14,12 @@
   color: yellow;
 }
 
+.responsive_txt {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: justify;
+}
+
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -32,6 +38,7 @@
 }
 
 @media (min-width: 1150px) {
+  /* first_section */
   #splash_menu {
     display: grid;
     grid-template-columns: 1fr;
@@ -51,6 +58,7 @@
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
     padding-bottom: 10rem;
+    height: 100vh;
   }
 
   .responsive_txt {
@@ -77,5 +85,33 @@
   }
   .link4 {
     place-self: end end;
+  }
+
+  /* second_section */
+  .prototype2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+    gap: 1rem;
+  }
+
+  .mb03 {
+    grid-column: 1;
+  }
+
+  .st03 {
+    grid-column: 1;
+  }
+
+  .ps03 {
+    grid-column: 1;
+  }
+
+  .sk03 {
+    grid-column: 1;
+  }
+
+  .mbtext {
+    grid-column: 2/3;
   }
 }
