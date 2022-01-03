@@ -1,3 +1,22 @@
 main {
   height: 100vh;
 }
+
+h1 {
+  position: fixed;
+  top: 50%;
+  left: 40%;
+}
+
+.animation h1 {
+  animation: fade 1s ease-in;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

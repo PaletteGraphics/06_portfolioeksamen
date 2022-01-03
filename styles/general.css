@@ -11,6 +11,11 @@ html {
   scroll-behavior: smooth;
 }
 
+main {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
 /* nulstil alle button styles */
 .mode {
   all: initial;
@@ -19,7 +24,7 @@ html {
   font-style: normal;
   font-size: 20px;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   cursor: pointer;
   padding: 1rem;
 }
@@ -31,6 +36,7 @@ h1 {
   font-style: normal;
   font-size: 39px;
   color: black;
+  padding-bottom: 0.5rem;
 }
 
 h2 {
@@ -39,6 +45,7 @@ h2 {
   font-style: normal;
   font-size: 33px;
   color: black;
+  padding-bottom: 0.5rem;
 }
 
 h3 {
@@ -48,6 +55,7 @@ h3 {
   font-size: 30px;
   color: black;
   text-decoration: underline;
+  padding-bottom: 0.5rem;
 }
 h4 {
   font-family: neue-haas-grotesk-display, sans-serif;
@@ -55,6 +63,7 @@ h4 {
   font-style: normal;
   font-size: 27px;
   color: black;
+  padding-bottom: 0.5rem;
 }
 
 p {
@@ -89,24 +98,22 @@ a {
   color: black;
 }
 a:hover {
-  color: white;
+  color: yellow;
 }
 
 button:hover {
-  color: black;
+  color: yellow;
 }
 
 /* background */
-main {
-  padding: 25px;
+body {
+  /* padding: 25px; */
   background-image: url(/img/splash2.jpg);
   background-size: cover;
-  width: 100%;
-  max-height: 100%;
 }
 
 /* Darkmode */
-main.dark {
+body.dark {
   background-image: url(/img/splash1.jpg);
 }
 
@@ -119,15 +126,15 @@ main.dark {
   color: white;
 }
 .dark a:hover {
-  color: black;
+  color: yellow;
 }
 
 .dark .mode {
-  color: black;
+  color: white;
 }
 
 .dark button:hover {
-  color: white;
+  color: yellow;
 }
 
 .dark h1 {
