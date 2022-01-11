@@ -11,9 +11,23 @@ html {
   scroll-behavior: smooth;
 }
 
-main {
+body {
   margin-left: 3%;
   margin-right: 3%;
+}
+
+.dark .fb {
+  filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(106deg)
+    brightness(111%) contrast(101%);
+}
+
+.fb a:hover {
+  filter: invert(100%) sepia(100%) saturate(5939%) hue-rotate(359deg)
+    brightness(111%) contrast(104%);
+}
+
+.fb {
+  width: 20%;
 }
 
 /* nulstil alle button styles */
@@ -72,6 +86,8 @@ p {
   font-style: normal;
   font-size: 20px;
   color: black;
+  text-align: justify;
+  line-height: 2;
 }
 
 /* links */
@@ -83,10 +99,16 @@ p {
 
 li {
   padding: 1rem;
+  font-family: karmina, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: black;
+  text-align: justify;
 }
 
-.push {
-  margin-right: auto;
+.fb img {
+  width: 100%;
 }
 
 a {
@@ -98,7 +120,7 @@ a {
   color: black;
 }
 a:hover {
-  color: yellow;
+  color: #ffff00;
 }
 
 button:hover {
@@ -107,14 +129,12 @@ button:hover {
 
 /* background */
 body {
-  /* padding: 25px; */
-  background-image: url(/img/splash2.jpg);
-  background-size: cover;
+  background-color: white;
 }
 
 /* Darkmode */
 body.dark {
-  background-image: url(/img/splash1.jpg);
+  background-color: black;
 }
 
 .dark a {
@@ -154,7 +174,21 @@ body.dark {
   color: white;
 }
 
+.dark li {
+  padding: 1rem;
+  font-family: karmina, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: justify;
+}
+
 @media (min-width: 545px) {
+  .fb {
+    margin-right: auto;
+    width: 17%;
+  }
   a {
     font-size: 33px;
   }
@@ -165,5 +199,27 @@ body.dark {
 
   .dark a {
     font-size: 33px;
+  }
+}
+@media (min-width: 710px) {
+  .fb {
+    width: 11%;
+  }
+}
+
+@media (min-width: 800px) {
+  .fb {
+    width: 9%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .fb {
+    width: 7%;
+  }
+}
+@media (min-width: 1200px) {
+  .fb {
+    width: 6%;
   }
 }

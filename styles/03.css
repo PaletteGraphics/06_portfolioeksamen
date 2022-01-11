@@ -1,0 +1,120 @@
+.uxtext {
+  padding-bottom: 30%;
+}
+.pptee {
+  padding-bottom: 30%;
+}
+
+.sketches {
+  padding-bottom: 30%;
+}
+.cr03 {
+  padding-bottom: 1rem;
+}
+
+.sketchtext {
+  padding-bottom: 1rem;
+}
+
+.mb03 {
+  padding-bottom: 30%;
+}
+
+.st03 {
+  padding-bottom: 30%;
+}
+
+.pptext {
+  padding-bottom: 1rem;
+}
+
+.linkpp {
+  padding-bottom: 30%;
+}
+
+.mbj,
+.stj,
+.sk103,
+.crazy8 {
+  border: black;
+  border-width: 4px;
+  border-style: solid;
+}
+
+@media (min-width: 810px) {
+  /* second_section */
+  .prototype2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 3%;
+  }
+
+  .uxtext {
+    grid-column: 1/3;
+    padding-bottom: 30%;
+  }
+
+  .protopro {
+    grid-column: 3/5;
+    padding-bottom: 30%;
+  }
+
+  .mb03 {
+    grid-column: 1/3;
+  }
+
+  .st03 {
+    grid-column: 3/5;
+    padding-bottom: 30%;
+  }
+
+  .pptext {
+    grid-column: 1/3;
+  }
+
+  .pptee {
+    grid-column: 3/5;
+    padding-bottom: 30%;
+  }
+
+  .linkpp {
+    grid-column: 1/3;
+    padding-bottom: 30%;
+  }
+
+  .sketches {
+    grid-column: 3/5;
+    padding-bottom: 30%;
+  }
+
+  .sketchtext {
+    grid-column: 1/3;
+    padding-bottom: 30%;
+  }
+
+  .pitch {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 3%;
+  }
+
+  .pitchmock {
+    grid-column: 1/4;
+  }
+
+  .pitchtext {
+    grid-column: 1/4;
+  }
+
+  .slidelink {
+    grid-column: 1;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+}

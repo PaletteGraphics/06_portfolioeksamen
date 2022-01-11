@@ -1,0 +1,89 @@
+.anitext {
+  padding-bottom: 1rem;
+}
+
+.mock {
+  padding-bottom: 30%;
+}
+
+.aktidia {
+  padding-bottom: 30%;
+}
+
+@media (min-width: 800px) {
+  #third_section {
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 3%;
+  }
+
+  .temaopgave {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .anitext {
+    grid-column: 1/3;
+    padding-bottom: 30%;
+  }
+
+  .overskrift {
+    grid-column: 1/3;
+  }
+
+  .aktidia {
+    grid-column: 3/5;
+    padding-bottom: 30%;
+  }
+
+  .koncepttext {
+    grid-column: 1/3;
+    padding-right: 1rem;
+  }
+
+  .billeder {
+    grid-column: 3/5;
+  }
+
+  .scene {
+    grid-column: 3/5;
+  }
+
+  .scenespil {
+    background-color: white;
+    border: black;
+    border-style: solid;
+    border-width: 4px;
+  }
+
+  .start {
+    grid-column: 3/5;
+  }
+
+  .stil {
+    grid-column: 1/3;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .startspil {
+    border: black;
+    border-style: solid;
+    border-width: 4px;
+  }
+
+  .mock {
+    grid-column: 3/5;
+  }
+
+  .spillink {
+    grid-column: 1/3;
+  }
+  .forward {
+    grid-column: 1;
+  }
+  .back {
+    grid-column: 1;
+  }
+}
