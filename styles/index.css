@@ -15,12 +15,13 @@
 }
 
 body {
-  background-image: url(/img/splash2.jpg);
+  background-image: url(https://palette.university/kea/06_portfolioeksamen/img/splash2.jpg);
   background-size: cover;
 }
 
+/* Darkmode */
 body.dark {
-  background-image: url(/img/splash1.jpg);
+  background-image: url(https://palette.university/kea/06_portfolioeksamen/img/splash1.jpg);
 }
 
 @keyframes fade {
