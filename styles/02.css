@@ -19,19 +19,35 @@
   /* first_section */
   #first_section {
     display: grid;
-    grid-template-columns: 1fr 0.5fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     padding-right: 10%;
     padding-left: 10%;
     padding-top: 3%;
   }
 
+  .overskrifter {
+    grid-column: 1/3;
+    grid-row: 1;
+  }
+
   .responsive_txt {
     grid-column: 1/3;
+    grid-row: 1;
     padding-right: 2rem;
+    padding-top: 6rem;
   }
+
   .responsive_pic {
     grid-column: 3/5;
+    grid-row: 1;
     max-width: 100%;
+    padding-top: 6rem;
+  }
+
+  .responsive_txt2 {
+    grid-column: 1/5;
+    grid-row: 2;
   }
 
   .links {
