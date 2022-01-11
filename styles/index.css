@@ -1,9 +1,9 @@
 .logo {
   display: block;
-  width: 30%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15%;
+  margin-top: 50%;
   filter: invert(0%) sepia(100%) saturate(21%) hue-rotate(2deg) brightness(92%)
     contrast(108%);
   animation: fade 1s ease-in;
@@ -17,11 +17,14 @@
 body {
   background-image: url(https://palette.university/kea/06_portfolioeksamen/img/splash2.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 /* Darkmode */
 body.dark {
   background-image: url(https://palette.university/kea/06_portfolioeksamen/img/splash1.jpg);
+  background-repeat: no-repeat;
 }
 
 @keyframes fade {
@@ -30,5 +33,12 @@ body.dark {
   }
   to {
     opacity: 1;
+  }
+}
+
+@media (min-width: 600px) {
+  .logo {
+    width: 30%;
+    margin-top: 15%;
   }
 }

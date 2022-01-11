@@ -26,10 +26,6 @@ body {
     brightness(111%) contrast(104%);
 }
 
-.fb {
-  width: 20%;
-}
-
 /* nulstil alle button styles */
 .mode {
   all: initial;
@@ -40,7 +36,7 @@ body {
   text-decoration: none;
   color: rgb(0, 0, 0);
   cursor: pointer;
-  padding: 1rem;
+  padding: 0rem;
 }
 
 /* General Fonts */
@@ -107,8 +103,12 @@ li {
   text-align: justify;
 }
 
+.fb {
+  margin-right: auto;
+}
+
 .fb img {
-  width: 100%;
+  width: 23px;
 }
 
 a {
@@ -183,11 +183,28 @@ body.dark {
   color: rgb(255, 255, 255);
   text-align: justify;
 }
-
-@media (min-width: 545px) {
-  .fb {
+@media (min-width: 519px) {
+  .fb img {
     margin-right: auto;
-    width: 17%;
+    width: 26px;
+  }
+  a {
+    font-size: 24px;
+  }
+
+  .mode {
+    font-size: 24px;
+  }
+
+  .dark a {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 655px) {
+  .fb img {
+    margin-right: auto;
+    width: 36px;
   }
   a {
     font-size: 33px;
@@ -199,27 +216,5 @@ body.dark {
 
   .dark a {
     font-size: 33px;
-  }
-}
-@media (min-width: 710px) {
-  .fb {
-    width: 11%;
-  }
-}
-
-@media (min-width: 800px) {
-  .fb {
-    width: 9%;
-  }
-}
-
-@media (min-width: 1000px) {
-  .fb {
-    width: 7%;
-  }
-}
-@media (min-width: 1200px) {
-  .fb {
-    width: 6%;
   }
 }

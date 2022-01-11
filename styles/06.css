@@ -1,3 +1,9 @@
+section {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 3%;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -41,6 +47,7 @@ h1 {
   .st06 {
     grid-column: 3/5;
   }
+
   .lay04 {
     grid-column: 1/3;
   }
